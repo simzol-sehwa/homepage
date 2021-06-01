@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+
+    <style>
+        html, body{
+            width: 100%;
+            height: 100%;
+            margin:0;
+            padding: 0;
+        }
+
+        #header{
+            background-color: cornflowerblue;
+            text-align: center;
+            height: 20%;
+        }
+
+        h1{
+          font-size: 50px;
+          text-align: center;
+          margin: 0;
+          vertical-align:middle;
+        }
+
+        #nav{
+            width: 15%;
+            background-color: salmon;
+            float: left;
+
+            height: 70%;
+        }
+
+        #container{
+            width: 85%;
+            height: 70%;
+            float: right;
+            background-color: white;
+            text-align: center;
+
+        }
+        #container ul{
+          list-style: circle;
+        }
+
+        #footer{
+            background-color: gray;
+            clear: both;
+            height: 10%;
+
+        }
+        table, tr, td{
+            margin: auto;
+            background-color: white;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>김한성</h1>
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">홈페이지</a></li>
+            <li>자기소개</li>
+            <li><a href="timetable.html">시간표</a></li>
+            <li>방과후</li>
+            <li>오늘 계획</li>
+        </ul>
+    </div>
+
+    <div id="container">
+        <h2>시간표</h2>
+        <table>
+            <tr>
+                <td rowspan="9">화요일</td>
+                <td>교시</td>
+                <td>과목</td>
+            </tr>
+            <tr>
+                <td>1교시</td>
+                <td>한국사</td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td>영어B</td>
+            </tr>
+            <tr>
+                <td>3교시</td>
+                <td>일본어</td>
+            </tr>
+            <tr>
+                <td>4교시</td>
+                <td>국어A</td>
+            </tr>
+            <tr>
+                <td colspan="2">점심시간</td>
+            </tr>
+            <tr>
+                <td>5교시</td>
+                <td>동아리</td>
+            </tr>
+            <tr>
+                <td>6교시</td>
+                <td>지리</td>
+            </tr>
+            <tr>
+                <td>7교시</td>
+                <td>정보</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="footer">
+        github 주소: <a href="https://github.com/simzol-sehwa/homepage">https://github.com/simzol-sehwa/homepage</a>
+    </div>
+</body>
+</html>
